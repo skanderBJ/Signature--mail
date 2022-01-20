@@ -164,5 +164,16 @@ $('input[type="file"]').change(function (e) {
     // read the image file as a data URL.
     reader.readAsDataURL(this.files[0]);
 });
+$('document').ready(function () {
+    $("#imgload").change(function () {
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#imgshow').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+});
 
 

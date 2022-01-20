@@ -119,7 +119,7 @@
 
                 
                   <label for="photoInputField">Photo</label>
-                 <input accept="image/*" type='file' id="imgInp" />
+                 <input type="file" id="imgload" >
                    
                
                 </div>
@@ -236,7 +236,7 @@
             <div id="email-sig-box">
               <div class="sig1">
                 <div class="pico1">
-                  <img src="https://i0.wp.com/www.crazytips.org/wp-content/uploads/2018/06/PicsArt_06-17-05.23.35.jpg" width="65px" height="65px" id="sigPhoto">
+                  <img src="https://i0.wp.com/www.crazytips.org/wp-content/uploads/2018/06/PicsArt_06-17-05.23.35.jpg" width="65px" height="65px" id="imgshow" >
                 </div>
                 <div class="details">
                   <p class="d1">
